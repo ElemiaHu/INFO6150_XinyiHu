@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: palevioletred;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+}
+
+p{
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 20px;
+}
+
