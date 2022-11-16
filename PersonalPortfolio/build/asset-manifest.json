@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04687009.css",
+    "main.js": "/static/js/main.eb37d648.js",
+    "static/media/cat.png": "/static/media/cat.902a1da8d9a9308b0d67.png",
+    "static/media/guessGame.png": "/static/media/guessGame.3065edadbaba498e291c.png",
+    "static/media/ice-cream.png": "/static/media/ice-cream.c9c1e507644ace0dc1ff.png",
+    "static/media/personal.png": "/static/media/personal.34c88ff7cdc010e08fbd.png",
+    "static/media/chestnut.png": "/static/media/chestnut.0e376b6fc538bedc869d.png",
+    "static/media/latte.png": "/static/media/latte.87a508f392c62c90c036.png",
+    "static/media/applePie.png": "/static/media/applePie.d4bc3eaa98760e18e836.png",
+    "static/media/headshot.png": "/static/media/headshot.7c0e332a256dc1e3b954.png",
+    "static/media/mario.png": "/static/media/mario.06c8a5728b2f71b243d2.png",
+    "static/media/bread.png": "/static/media/bread.441371c914fce3b2f583.png",
+    "static/media/icedLatte.png": "/static/media/icedLatte.8cf1c5bedde87f1690ea.png",
+    "static/media/Star-Trek-Logo.png": "/static/media/Star-Trek-Logo.3d657ed7437a81b7123d.png",
+    "static/media/toast.png": "/static/media/toast.78b82017da6abef0e392.png",
+    "static/media/danish.png": "/static/media/danish.7cd17f2f1dbe6914d39f.png",
+    "static/media/puffs.png": "/static/media/puffs.a6c8befa4d398f6ab379.png",
+    "static/media/brownie.png": "/static/media/brownie.93fc5512e6e20aba7ae4.png",
+    "static/media/pixel.png": "/static/media/pixel.6d368297a3ce0ecf2743.png",
+    "static/media/lavaCake.png": "/static/media/lavaCake.67e27ba26beb7dd3b0ae.png",
+    "static/media/habits.png": "/static/media/habits.f27bf8ccf5d807be8962.png",
+    "static/media/linkedIn_logo.png": "/static/media/linkedIn_logo.bb933d6809d6410387a0.png",
+    "index.html": "/index.html",
+    "main.04687009.css.map": "/static/css/main.04687009.css.map",
+    "main.eb37d648.js.map": "/static/js/main.eb37d648.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04687009.css",
+    "static/js/main.eb37d648.js"
+  ]
+}
