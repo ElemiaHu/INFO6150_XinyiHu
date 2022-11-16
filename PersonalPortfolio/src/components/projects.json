@@ -1,0 +1,37 @@
+[
+    {"projectName": "Guessing Game", 
+     "description": "This webpage is a number-guessing game, where users win a star each time they correctly guess a number.", 
+     "technology": "HTML, CSS, JavaScript",
+     "url": "https://soft-truffle-1141c2.netlify.app/",
+     "image": "../img/guessGame.png",
+     "type": "Frontend"
+    },
+    {"projectName": "Webpage Super Mario", 
+     "description": "This project is a duplica of the classic Mario game where users control Mario using 'A' and 'D' to move around and 'space' to jump.", 
+     "technology": "HTML, CSS, JavaScript", 
+     "url": "https://astonishing-caramel-4c358e.netlify.app/",
+     "image": "",
+     "type": "Frontend"
+    },
+    {"projectName": "Pixel Art Generator", 
+     "description": "This webpage generates blocks for users to make their own pixel art.", 
+     "technology": "HTML, CSS, JavaScript", 
+     "url": "https://dynamic-faloodeh-edd4d4.netlify.app/",
+     "image": "",
+     "type": "Frontend"
+    },
+    {"projectName": "Personal Portfolio", 
+     "description": "This is my first personal website built using only HTML and CSS.", 
+     "technology": "HTML, CSS", 
+     "url": "https://sunny-cat-52475c.netlify.app/",
+     "image": "",
+     "type": "Full Stack"
+    },
+    {"projectName": "Habits Forming",
+     "description": "I created an Android application for users to keep track of their habits. This application includes a calendar, a habit manager and a dashboard offering statistics about users' habits forming condition.",
+     "technology": "Java, Android Studio, MySQL",
+     "url": "",
+     "image": "",
+     "type": "Full Stack"
+    }
+]

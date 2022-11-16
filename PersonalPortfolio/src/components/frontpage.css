@@ -1,0 +1,127 @@
+#opening {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+}
+
+/* general style settings for blocks */
+.blockContainer {
+    margin: 10px 0;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    color: rgb(68, 68, 68);
+}
+
+.block {
+    font-weight: bold;
+    margin: 0 5px;
+    height: 170px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 300ms;
+}
+
+.block1, .block2, .block3 {width: 25%;}
+.block1 {background-color: rgb(208,196,185);}
+.block2 {background-color: rgb(233,223,207);}
+.block3 {background-color: rgb(199,178,168);}
+.block4 {background-color: rgb(190,159,142);}
+.block4,.block6 {width: 20%;}
+.block5{width: 35%; background-color: rgb(208,196,185);}
+.block6 {background-color: rgb(218,205,190);}
+.block7, .block8 {width: 30%;}
+.block7 {background-color: rgb(199,178,168);}
+.block8 {background-color: rgb(214,207,199);}
+.block9 {width: 15%; background-color: rgb(225,211,202);}
+
+.block.flip {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    padding: 1rem;
+    backface-visibility: hidden;
+}
+
+.front {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    transform: rotateY(180deg);
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+#starTrek {
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #danish {
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #cat {
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #cat {
+        height: 115px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #headshot {
+        width: 100%;
+    }
+    .back {
+        font-size: 23px;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    #headshot {
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .back {
+        font-size: 20px;
+    }
+    .block8 img {
+        height: 60px;
+    }
+}

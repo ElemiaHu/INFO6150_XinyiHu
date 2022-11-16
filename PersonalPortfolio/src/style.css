@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(96,72,45) */
+}
+
+body {
+    margin: 0;
+    background-color: rgb(231,225,216);
+}
+
+header {
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(159,138,119);
+    box-shadow: 2px 5px 18px rgba(159, 138, 119, 0.847);
+    color: beige;
+    font-weight: bold;
+    z-index: 999;
+}
+
+#name {
+    font-size: 40px;
+    font-family: 'Oleo Script', cursive;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#navigation * {
+    margin: 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: beige;
+}
+
+#navigation a:hover {
+    color: rgb(221, 221, 202);
+}
+
+#connect {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(159, 138, 119, 0.776);
+    color: rgb(244, 244, 224);
+    font-weight: bold;
+    border: 2px solid beige;
+}
+
+#connect:hover {
+    background-color: rgba(143, 124, 106, 0.776);
+}
+
+#greeting {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#hey {
+    font-size: 50px;
+    font-family: 'Oleo Script', cursive;
+}
+
+#greeting .intro {
+    font-size: 22px;
+}
+
+#greeting div {
+    color: rgb(68, 68, 68);
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    line-height: 2;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.791);
+    margin-top: 40px;
+    padding: 30px 0;
+    text-align: center;
+    color: beige;
+}
+
+.links img {
+    margin: 20px 10px;
+}
+
+footer div:last-child {
+    font-size: 15px;
+}
+
+#seperator, #seperator1 {
+    height: 1px;
+    width: 76%;
+    margin: 0 12%;
+    background-color: rgb(159,138,119);
+}
+
+.skillsContainer {
+    display: flex;
+    padding: 0 15%;
+    margin: 30px 0;
+    color: rgb(68, 68, 68);
+}
+
+#skillsTitle {
+    margin-right: 30%;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.skillItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.skillItem div {
+    width: 20%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.skillItem img {
+    width: 60%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #skillsTitle {
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .skillsContainer {
+        flex-direction: column;
+    }
+    #skillsTitle {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+#projects-container {
+    width: 76%;
+    margin: 50px 12%;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(195,179,167);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel {
+    width: 60%;
+}
+
+#carousel a {
+    text-decoration: none;
+    color: rgb(96,72,45);
+}
+
+#project {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    margin: 25px 0;
+}
+
+.item {
+    color: rgb(96,72,45);
+    line-height: 2;
+}
+
+.item .name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item img {
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.item .words, .item .tech {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.decoration {
+    height: 30px;
+}
